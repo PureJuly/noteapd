@@ -16,7 +16,7 @@ def save_file():
 def maker():
     help_view = Toplevel(window) # 따로 메시지창 띄우기용
     help_view.geometry("300x50")
-    help_view.tilte("만든이")
+    help_view.title("만든이")
     lb = Label(help_view, text = "안효민이 만든 메모장입니다.")
     lb.pack()
 
