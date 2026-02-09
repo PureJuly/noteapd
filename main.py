@@ -3,7 +3,7 @@ from tkinter.filedialog import *
 
 window = Tk()
 window.title("Notepad")
-window.geometry("400*400")
+window.geometry("400x400")
 window.resizable(False, False)
 
 menu = Menu(window) # 최상위 메뉴
