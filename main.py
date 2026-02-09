@@ -14,7 +14,7 @@ def save_file():
 
 # 누가 만들었는지 보여주는 창을 별도로 띄우기!
 def maker():
-    helf_view = Toplevel(window) # 따로 메시지창 띄우기용
+    help_view = Toplevel(window) # 따로 메시지창 띄우기용
     help_view.geometry("300x50")
     help_view.tilte("만든이")
     lb = Label(help_view, text = "안효민이 만든 메모장입니다.")
